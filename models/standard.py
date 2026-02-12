@@ -1,0 +1,1 @@
+# This file is deprecated. Its functionality has been moved to models/cnn_model.py
