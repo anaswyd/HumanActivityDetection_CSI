@@ -226,9 +226,9 @@ def main():
     print(f"  CNN Model:    {cnn_improvement:+.2f}%")
 
     if lstm_improvement > 0 or cnn_improvement > 0:
-        print("\nAugmentation verbessert die Performance - empfohlen!")
+        print("\nAugmentation verbessert die Performance - empfohlen")
     else:
-        print("\nAugmentation hilft nicht - Dataset ausreichend groß.")
+        print("\nAugmentation hilft nicht - Dataset ausreichend groß")
 
     # Modell-Vergleich
     lstm_best = max(results_lstm_no_aug['mean_accuracy'], results_lstm_aug['mean_accuracy'])
@@ -243,10 +243,10 @@ def main():
         print(f"\nCNN Model ist {improvement:.2f}% besser")
     else:
         improvement = ((lstm_best - cnn_best) / cnn_best * 100)
-        print(f"\nLSTM Model reicht aus ({improvement:.2f}% besser als CNN)")
+        print(f"\nLSTM Model ({improvement:.2f}% besser als CNN)")
 
     print(f"\n{'=' * 80}")
-    print("K-FOLD VALIDATION ABGESCHLOSSEN")
+    print("Ende")
     print(f"{'=' * 80}")
 
 
