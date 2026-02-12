@@ -240,7 +240,7 @@ def main():
 
     if cnn_best > lstm_best:
         improvement = ((cnn_best - lstm_best) / lstm_best * 100)
-        print(f"\nCNN Model ist {improvement:.2f}% besser - empfohlen!")
+        print(f"\nCNN Model ist {improvement:.2f}% besser")
     else:
         improvement = ((lstm_best - cnn_best) / cnn_best * 100)
         print(f"\nLSTM Model reicht aus ({improvement:.2f}% besser als CNN)")

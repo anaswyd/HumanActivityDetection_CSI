@@ -259,6 +259,8 @@ class KFoldCrossValidator:
         ax2.text(1.15, self.results['mean_accuracy'] * 100, stats_text, fontsize=10,
                  bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
         '''
+        axes[0, 1].axis('off')
+
         # 3. Training Curves (alle Folds)
         ax3 = axes[1, 0]
         for i, history in enumerate(self.results['fold_histories'], 1):
