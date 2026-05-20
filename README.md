@@ -1,5 +1,5 @@
 # WiFi Sensing: Person and Activity Detection Using Wi-Fi Signals
 
-* [**Written Report (PDF)**](Paper/Person-Detection_Wi-Fi_CSI_Paper.pdf)
-* [**Presentation Slides (PDF)**](Paper/Person-Detection_Wi-Fi_CSI_Presentation.pdf)
+* [**Written Report (PDF)**](Paper/Personenerkennung_WLAN_CSI_Paper.pdf)
+* [**Presentation Slides (PDF)**](Paper/Personenerkennung_WLAN_CSI_Presentation.pdf)
 
